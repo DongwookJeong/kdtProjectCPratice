@@ -1,7 +1,6 @@
 let a = [1, 2, 3];
-let b = a;
+let b = [1, 2, 3];
 
-let c = 1;
-let d = 1;
-console.log(b === a);
-console.log(c === d);
+b.push(4);
+console.log(a);
+console.log(b);
